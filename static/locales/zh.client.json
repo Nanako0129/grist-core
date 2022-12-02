@@ -373,30 +373,30 @@
     "ITTechnology": "資訊科技",
     "Marketing": "營銷",
     "Research": "研究",
-    "Sales": "銷售量",
-    "Education": "Education",
-    "HRManagement": "HR & Management",
-    "Other": "Other",
-    "WhatBringsYouToGrist": "What brings you to Grist? Please help us serve you better.",
-    "TypeHere": "Type here"
+    "Sales": "銷售",
+    "Education": "教育",
+    "HRManagement": "人力資源與管理",
+    "Other": "其它",
+    "WhatBringsYouToGrist": "是什麼讓你來到Grist？ 請幫助我們更好地為您服務。",
+    "TypeHere": "在此輸入"
   },
   "OpenVideoTour": {
-    "YouTubeVideoPlayer": "YouTube video player",
-    "GristVideoTour": "Grist Video Tour",
-    "VideoTour": "Video Tour"
+    "YouTubeVideoPlayer": "YouTube 影片播放器",
+    "GristVideoTour": "Grist 介紹影片",
+    "VideoTour": "影片介紹"
   },
   "Pages": {
-    "TableWillNoLongerBeVisible_one": "The following table will no longer be visible",
-    "TableWillNoLongerBeVisible_other": "The following tables will no longer be visible",
-    "DeleteDataAndPage": "Delete data and this page.",
-    "Delete": "Delete"
+    "TableWillNoLongerBeVisible_one": "下表將不再可視",
+    "TableWillNoLongerBeVisible_other": "下表將不再可視",
+    "DeleteDataAndPage": "刪除數據和本頁。",
+    "Delete": "刪除"
   },
   "PageWidgetPicker": {
-    "BuildingWidget": "Building {{- label}} widget",
-    "SelectWidget": "Select Widget",
-    "SelectData": "Select Data",
-    "GroupBy": "Group by",
-    "AddToPage": "Add to Page"
+    "BuildingWidget": "構建 {{- label}} 小部件",
+    "SelectWidget": "選擇小部件",
+    "SelectData": "選擇數據",
+    "GroupBy": "群組來自",
+    "AddToPage": "添加到頁面"
   },
   "RightPanel": {
     "Column_one": "Column",
@@ -516,19 +516,19 @@
     "Close": "Close"
   },
   "VisibleFieldsConfig": {
-    "NoReorderHiddenField": "Hidden Fields cannot be reordered",
-    "NoDropInHiddenField": "Cannot drop items into Hidden Fields",
-    "SelectAll": "Select All",
-    "Clear": "Clear"
+    "NoReorderHiddenField": "隱藏字段無法重新排序",
+    "NoDropInHiddenField": "無法將項目放入隱藏字段",
+    "SelectAll": "全選",
+    "Clear": "清除"
   },
   "ViewLayoutMenu": {
-    "DeleteRecord": "Delete record",
-    "CopyAnchorLink": "Copy anchor link",
-    "ShowRawData": "Show raw data",
-    "PrintWidget": "Print widget",
-    "DownloadCSV": "Download as CSV",
-    "DownloadXLSX": "Download as XLSX",
-    "EditCardLayout": "Edit Card Layout",
+    "DeleteRecord": "刪除記錄",
+    "CopyAnchorLink": "複製錨連接",
+    "ShowRawData": "顯示原始數據",
+    "PrintWidget": "打印小部件",
+    "DownloadCSV": "下載為 CSV",
+    "DownloadXLSX": "下載為 XLSX",
+    "EditCardLayout": "編輯卡片佈局",
     "WidgetOptions": "小部件選項",
     "AdvancedSortFilter": "高級排序和過濾",
     "DataSelection": "數據選擇",
@@ -599,35 +599,35 @@
       "TeamSiteSuspended": "This team site is suspended. Documents can be read, but not modified."
     },
     "DocPageModel": {
-      "ErrorAccessingDocument": "Error accessing document",
-      "Reload": "Reload",
+      "ErrorAccessingDocument": "訪問文檔時出錯",
+      "Reload": "重新載入",
       "ReloadingOrRecoveryMode": "You can try reloading the document, or using recovery mode. Recovery mode opens the document to be fully accessible to owners, and inaccessible to others. It also disables formulas. [{{error}}]",
       "AccessError_denied": "Sorry, access to this document has been denied. [{{error}}]",
       "AccessError_recover": "Document owners can attempt to recover the document. [{{error}}]",
       "EnterRecoveryMode": "Enter recovery mode",
-      "AddPage": "Add Page",
-      "AddWidgetToPage": "Add Widget to Page",
-      "AddEmptyTable": "Add Empty Table",
-      "NoEditAccess": "You do not have edit access to this document"
+      "AddPage": "添加頁面",
+      "AddWidgetToPage": "將小部件添加到頁面",
+      "AddEmptyTable": "添加空白表格",
+      "NoEditAccess": "您沒有對此文檔的編輯的權限"
     },
     "UserManagerModel": {
-      "Owner": "Owner",
-      "Editor": "Editor",
-      "Viewer": "Viewer",
-      "NoDefaultAccess": "No Default Access",
+      "Owner": "擁有者",
+      "Editor": "編輯",
+      "Viewer": "檢視",
+      "NoDefaultAccess": "沒有默認訪問權限",
       "InFull": "In Full",
       "ViewAndEdit": "View & Edit",
       "ViewOnly": "View Only",
-      "None": "None"
+      "None": "無"
     }
   },
   "ui2018": {
     "breadcrumbs": {
       "FiddleExplanation": "You may make edits, but they will create a new copy and will\nnot affect the original document.",
-      "Snapshot": "snapshot",
-      "Unsaved": "unsaved",
+      "Snapshot": "快照",
+      "Unsaved": "未保存",
       "RecoveryMode": "recovery mode",
-      "Override": "override",
+      "Override": "覆蓋",
       "Fiddle": "fiddle"
     },
     "ColorSelect": {
