@@ -1,0 +1,770 @@
+{
+  "AccountPage": {
+    "AccountSettings": "帳號設定",
+    "API": "API",
+    "Edit": "編輯",
+    "Email": "Email",
+    "Name": "名稱",
+    "Save": "儲存",
+    "PasswordSecurity": "密碼與安全性",
+    "LoginMethod": "登入方式",
+    "ChangePassword": "更改密碼",
+    "AllowGoogleSigning": "允許透過 Google 帳號來登入",
+    "TwoFactorAuth": "兩步驟驗證",
+    "TwoFactorAuthDescription": "兩步驟驗證能給你的Grist帳號多一層保障，即使在他人知道你的密碼，依然只有你能夠存取帳號。",
+    "Theme": "主題",
+    "APIKey": "API Key",
+    "WarningUsername": "名稱只允許英文字母、數字和特定字元"
+  },
+  "AccountWidget": {
+    "SignIn": "登入",
+    "DocumentSettings": "文件設定",
+    "ToggleMobileMode": "切換行動版模式",
+    "Pricing": "價格",
+    "ProfileSettings": "個人資料設定",
+    "ManageTeam": "管理團隊",
+    "AccessDetails": "存取紀錄",
+    "SwitchAccounts": "切換帳號",
+    "Accounts": "帳號",
+    "AddAccount": "新增帳號",
+    "SignOut": "登出"
+  },
+  "AddNewButton": {
+    "AddNew": "新增"
+  },
+  "AppHeader": {
+    "HomePage": "首頁",
+    "Legacy": "舊版",
+    "PersonalSite": "個人頁面",
+    "TeamSite": "團隊頁面"
+  },
+  "ApiKey": {
+    "AboutToDeleteAPIKey": "你即將刪除API Key，這將會造成透過此API Key相關請求將會被拒絕。你確定要刪除嗎？",
+    "AnonymousAPIKey": "API Key可以用來匿名存取你的帳號。",
+    "ByGenerating": "透過新增API Key，你能夠在你的帳號使用API。",
+    "ClickToShow": "點擊顯示",
+    "Create": "建立",
+    "OwnAPIKey": "此API Key可以用來存取你的帳號。請不要分享給任何人。",
+    "Remove": "移除",
+    "RemoveAPIKey": "移除API Key"
+  },
+  "App": {
+    "Description": "敘述",
+    "Key": "Key",
+    "MemoryError": "記憶體錯誤"
+  },
+  "CellContextMenu": {
+    "ResetEntireColumns_one": "重置整列",
+    "ResetEntireColumns_other": "重置 {{count}} 個整列",
+    "ResetColumns_one": "重設此欄",
+    "ResetColumns_other": "重設 {{count}} 個欄位",
+    "DeleteColumns_one": "刪除欄位",
+    "DeleteColumns_other": "刪除 {{count}} 個欄位",
+    "DeleteRows_one": "刪除行",
+    "DeleteRows_other": "刪除 {{count}} 個行",
+    "ClearValues": "清除數值",
+    "ClearCell": "Clear cell",
+    "CopyAnchorLink": "複製錨連接",
+    "FilterByValue": "按此數值過濾",
+    "InsertRow": "插入行",
+    "InsertRowAbove": "在上方插入行",
+    "InsertRowBelow": "在下方插入行",
+    "DuplicateRows_one": "重複行",
+    "DuplicateRows_other": "重複行",
+    "InsertColumnRight": "在右側插入列",
+    "InsertColumnLeft": "在左側插入列"
+  },
+  "ColumnFilterMenu": {
+    "FilterByRange": "按範圍篩選",
+    "Search": "搜尋",
+    "SearchValues": "搜索數值",
+    "All": "全部",
+    "AllShown": "顯示全部",
+    "AllExcept": "全部除外",
+    "None": "無",
+    "NoMatchingValues": "沒有匹配的數值",
+    "OtherMatching": "其他符合的",
+    "OtherNonMatching": "其他不符合的",
+    "OtherValues": "其他數值",
+    "FutureValues": "Future Values",
+    "Others": "其它"
+  },
+  "CustomSectionConfig": {
+    "Add": "新增",
+    "EnterCustomURL": "輸入自定義網址",
+    "FullDocumentAccess": "訪問完整文檔",
+    "LearnMore": "了解有關自定義小部件的更多信息",
+    "PickAColumn": "選擇一列",
+    "PickAColumnWithType": "選擇一個 {{columnType}} 列",
+    "NoDocumentAccess": "沒有文檔訪的問權限",
+    "OpenConfiguration": "打開設置",
+    "Optional": " (可選的)",
+    "ReadSelectedTable": "讀取選定的表",
+    "SelectCustomWidget": "選擇自定義小部件",
+    "WidgetNeedFullAccess": "Widget 需要 {{fullAccess}} 才能訪問此文檔。",
+    "WidgetNeedRead": "小部件需要 {{read}} 當前表。",
+    "WidgetNoPermissison": "小部件不需要任何權限。",
+    "WrongTypesMenuText_one": "{{wrongTypeCount}} 非{{columnType}} 列未顯示",
+    "WrongTypesMenuText_others": "{{wrongTypeCount}} 非 {{columnType}} 列未顯示"
+  },
+  "DocHistory": {
+    "Activity": "活動",
+    "Snapshots": "快照",
+    "SnapshotsUnavailable": "快照不可用。",
+    "OpenSnapshot": "打開快照",
+    "CompareToCurrent": "與當前比較",
+    "CompareToPrevious": "與之前比較",
+    "Beta": "Beta"
+  },
+  "DocMenu": {
+    "OtherSites": "其他網站",
+    "OtherSitesWelcome": "您在 {{siteName}} 網站上。 您還可以訪問以下站點：",
+    "OtherSitesWelcome_personal": "你在你的個人網站上。 您還可以訪問以下站點：",
+    "AllDocuments": "所有文檔",
+    "ExamplesAndTemplates": "示例和模板",
+    "MoreExamplesAndTemplates": "更多示例和模板",
+    "ServiceNotAvailable": "該服務目前不可用",
+    "NeedPaidPlan": "(該組織需要付費計劃)",
+    "PinnedDocuments": "已釘選文檔",
+    "Featured": "精選",
+    "Trash": "垃圾",
+    "DocStayInTrash": "文檔在垃圾桶中保留 30 天，之後將會被永久刪除。",
+    "EmptyTrash": "垃圾桶是空的。",
+    "WorkspaceNotFound": "找不到工作區",
+    "Delete": "刪除",
+    "DeleteDoc": "刪除{{name}}",
+    "Deleted": "已刪除{{at}}",
+    "Edited": "編輯於{{at}}",
+    "Examples&Templates": "示例和模板",
+    "DiscoverMoreTemplates": "發現更多模板",
+    "ByName": "按名字",
+    "ByDateModified": "按修改日期",
+    "DocumentMoveToTrash": "文檔將被移至垃圾桶。",
+    "Rename": "重新命名",
+    "Move": "移動",
+    "Remove": "移除",
+    "UnpinDocument": "取消釘選文檔",
+    "PinDocument": "釘選文檔",
+    "AccessDetails": "訪問詳細信息",
+    "ManageUsers": "管理用戶",
+    "DeleteForeverDoc": "永久刪除“{{name}}”？",
+    "DeleteForever": "永久刪除",
+    "DeleteDocPerma": "文檔將被永久刪除。",
+    "Restore": "復原",
+    "RestoreThisDocument": "要恢復此文檔，請先恢復工作區。",
+    "DeleteWorkspaceForever": "一旦其中沒有文檔，您可以永遠刪除工作區。",
+    "CurrentWorkspace": "當前工作區",
+    "RequiresEditPermissions": "需要編輯權限",
+    "MoveDocToWorkspace": "將 {{name}} 移動到工作區"
+  },
+  "DocTour": {
+    "InvalidDocTourTitle": "無有效證件遊覽",
+    "InvalidDocTourBody": "無法從該文檔中的數據構建文檔瀏覽。確保有一個名為 GristDocTour 的表，其中包含 Title、Body、Placement 和 Location 列。"
+  },
+  "DocumentSettings": {
+    "DocumentSettings": "文檔設置",
+    "ThisDocumentID": "本文檔的 ID(供 API 使用)：",
+    "TimeZone": "時區：",
+    "Locale": "環境語言：",
+    "Currency": "貨幣：",
+    "LocalCurrency": "當地貨幣({{currency}})",
+    "EngineRisk": "引擎（實驗性 {{span}} 更改風險自負）：",
+    "Save": "儲存",
+    "SaveAndReload": "保存並重新加載"
+  },
+  "DuplicateTable": {
+    "NewName": "新表格的名稱",
+    "AdviceWithLink": "與其複製表格，不如使用連接視圖來分割數據通常會更好。 {{link}}",
+    "CopyAllData": "複製除表格結構外的所有數據。",
+    "WarningACL": "只有文檔默認訪問規則將應用於副本。"
+  },
+  "errorPages": {
+    "AccessDenied": "訪問被拒絕{{suffix}}",
+    "DeniedOrganizationDocuments": "您無權訪問該組織的文檔。",
+    "SignInWithDifferentAccount": "您以 {{email}} 身份登錄。您可以使用其他帳戶登錄，或向管理員申請訪問權限。",
+    "SignInToAccess": "登錄以訪問該組織的文檔。",
+    "GoToMainPage": "轉到主頁面",
+    "SignIn": "登入",
+    "AddAcount": "新增帳號",
+    "SignedOut": "已登出{{suffix}}",
+    "GenericError": "錯誤{{suffix}}",
+    "SignedOutNow": "您現在已登出。",
+    "SignedInAgain": "重新登入",
+    "PageNotFound": "找不到頁面{{suffix}}",
+    "NotFoundMainText": "找不到請求的頁面。{{separator}}請檢查 URL 並重試。",
+    "ContactSupport": "聯繫以獲得支持",
+    "SomethingWentWrong": "出了點問題",
+    "ErrorHappened_message": "出現錯誤：{{message}}",
+    "ErrorHappened_unknown": "出現未知錯誤。"
+  },
+  "FieldConfig": {
+    "ColumnLabel": "COLUMN LABEL AND ID",
+    "ColumnOptionsLimited": "列選項在匯總表格中受到限制。",
+    "ColumnType_formula_one": "公式欄",
+    "ColumnType_data_one": "數據欄",
+    "ColumnType_empty_one": "空白列",
+    "ColumnType_formula_other": "公式列",
+    "ColumnType_data_other": "數據列",
+    "ColumnType_empty_other": "空白列",
+    "ColumnType_mixed_other": "混合行為",
+    "ConvertColumn_formula": "Clear and make into formula",
+    "ConvertColumn_data": "將列轉換為數據",
+    "ConvertColumn_triggerformula": "轉換為觸發公式",
+    "ClearAndReset": "清除並重置",
+    "EnterFormula": "輸入公式",
+    "ColumnBehavior": "COLUMN BEHAVIOR",
+    "SetFormula": "設定公式",
+    "SetTriggerFormula": "設置觸發公式",
+    "MakeIntoDataColumn": "製作成數據欄",
+    "TriggerFormula": "觸發公式"
+  },
+  "ExampleInfo": {
+    "Title_CRM": "輕量級客戶關係管理",
+    "WelcomeTitle_CRM": "歡迎使用輕量級 CRM 模板",
+    "WelcomeText_CRM": "查看我們的相關教程，了解如何連接數據和創建高效佈局。",
+    "WelcomeTutorialName_CRM": "教程：創建 CRM",
+    "Title_investmentResearch": "投資研究",
+    "WelcomeTitle_investmentResearch": "歡迎使用投資研究模板",
+    "WelcomeText_investmentResearch": "查看我們的相關教程，了解如何創建匯總表和圖表，以及動態連接圖表。",
+    "WelcomeTutorialName_investmentResearch": "教程：分析和可視化",
+    "Title_afterschool": "課後活動",
+    "WelcomeTitle_afterschool": "歡迎使用課後計劃模板",
+    "WelcomeText_afterschool": "Check out our related tutorial for how to model business data, use formulas, and manage complexity.",
+    "WelcomeTutorialName_afterschool": "Tutorial: Manage Business Data"
+  },
+  "FieldMenus": {
+    "UsingSettings_common": "Using common settings",
+    "UsingSettings_separate": "Using separate settings",
+    "Settings_useseparate": "Use separate settings",
+    "Settings_savecommon": "Save as common settings",
+    "Settings_revertcommon": "Revert to common settings"
+  },
+  "FilterConfig": {
+    "AddColumn": "Add Column"
+  },
+  "GridOptions": {
+    "GridOptions": "Grid Options",
+    "VerticalGridlines": "Vertical Gridlines",
+    "HorizontalGridlines": "Horizontal Gridlines",
+    "ZebraStripes": "Zebra Stripes"
+  },
+  "GridViewMenus": {
+    "AddColumn": "Add Column",
+    "ShowColumn": "Show column {{- label}}",
+    "ColumnOptions": "Column Options",
+    "FilterData": "Filter Data",
+    "Sort": "Sort",
+    "MoreSortOptions": "More sort options ...",
+    "RenameColumn": "Rename column",
+    "ResetEntireColumns_one": "Reset entire column",
+    "ResetEntireColumns_other": "Reset {{count}} entire columns",
+    "ResetColumns_one": "Reset column",
+    "ResetColumns_other": "Reset {{count}} columns",
+    "DeleteColumns_one": "Delete column",
+    "DeleteColumns_other": "Delete {{count}} columns",
+    "HideColumns_one": "Hide column",
+    "HideColumns_other": "Hide {{count}} columns",
+    "ConvertFormulaToData": "Convert formula to data",
+    "ClearValues": "Clear values",
+    "InsertColumn": "Insert column to the {{to}}",
+    "FreezeColumn_one": "Freeze this column",
+    "FreezeColumn_other": "Freeze {{count}} columns",
+    "FreezeColumn_more_one": "Freeze one more columns",
+    "FreezeColumn_more_other": "Freeze {{count}} more columns",
+    "UnfreezeColumn_one": "Unfreeze this column",
+    "UnfreezeColumn_other": "Unfreeze {{count}} columns",
+    "UnfreezeColumn_all_other": "Unfreeze all columns",
+    "AddToSort": "Add to sort",
+    "AddToSort_added": "Sorted (#{{count}})"
+  },
+  "HomeIntro": {
+    "SignUp": "Sign up",
+    "EmptyWorkspace": "This workspace is empty.",
+    "PersonalSite": "personal site",
+    "WelcomeTo": "Welcome to {{orgName}}",
+    "WelcomeInfoNoDocuments": "You have read-only access to this site. Currently there are no documents.",
+    "WelcomeInfoAppearHere": "在此站點中創建的任何文檔都將顯示在此處。",
+    "WelcomeTextVistGrist": "有興趣在您的團隊之外使用 Grist 嗎？ 訪問您的免費 ",
+    "SproutsProgram": "Sprouts Program",
+    "WelcomeUser": "歡迎來到 Grist，{{name}}！",
+    "TeamSiteIntroGetStarted": "開始邀請您的團隊並創建您的第一個 Grist 文檔。",
+    "OrFindAndExpert": "，或通過我們的專家 ",
+    "PersonalIntroGetStarted": "從創建您的第一個 Grist 文檔開始。",
+    "AnonIntroGetStarted": "從瀏覽模板或創建您的第一個 Grist 文檔開始。",
+    "Welcome": "歡迎來到Grist！",
+    "VisitHelpCenter": "訪問我們的{{link}} 以了解更多資訊。",
+    "HelpCenter": "幫助中心",
+    "InviteTeamMembers": "邀請團隊成員",
+    "BrowseTemplates": "瀏覽模板",
+    "CreateEmptyDocument": "創建空白文檔",
+    "ImportDocument": "匯入文檔"
+  },
+  "HomeLeftPane": {
+    "AllDocuments": "所有文檔",
+    "ExamplesAndTemplates": "示例和模板",
+    "CreateEmptyDocument": "創建空白文檔",
+    "ImportDocument": "匯入文檔",
+    "CreateWorkspace": "創建工作區",
+    "Trash": "垃圾",
+    "Rename": "重新命名",
+    "Delete": "刪除",
+    "Workspaces": "工作區",
+    "WorkspaceDeleteTitle": "刪除 {{workspace}} 和所有包含的文檔？",
+    "WorkspaceDeleteText": "工作區將移至垃圾桶。",
+    "ManageUsers": "管理用戶",
+    "AccessDetails": "訪問詳細信息"
+  },
+  "LeftPanelCommon": {
+    "HelpCenter": "幫助中心"
+  },
+  "MakeCopyMenu": {
+    "CannotEditOriginal": "替換原件需要對原始文檔的編輯權限。",
+    "Cancel": "取消",
+    "UpdateOriginal": "更新原件",
+    "Update": "更新",
+    "WarningOriginalWillBeUpdated": "本文檔的原始版本將被更新。",
+    "OriginalHasModifications": "原始檔案有修改",
+    "Overwrite": "覆寫",
+    "WarningOverwriteOriginalChanges": "請注意，原始文檔中沒有更改。這些更改將被覆蓋。",
+    "OriginalLooksUnrelated": "Original Looks Unrelated",
+    "WarningWillBeOverwritten": "它將被覆寫，丟失不在本文檔中的任何內容。",
+    "OriginalLooksIdentical": "原始檔相同",
+    "WarningAlreadyIdentical": "但是，它似乎已經完全相同。",
+    "SignUp": "註冊",
+    "ToSaveSignUpAndReload": "要保存您的更改，請註冊，然後重新加載此頁面。",
+    "NoDestinationWorkspace": "沒有目標的工作區",
+    "Name": "名稱",
+    "EnterDocumentName": "輸入文檔名稱",
+    "AsTemplate": "作為模板",
+    "IncludeStructureWithoutData": "包括沒有任何數據的結構。",
+    "Organization": "組織",
+    "NoWriteAccessToSite": "您沒有對此網站的寫入的權限",
+    "Workspace": "工作區",
+    "NoWriteAccessToWorkspace": "您沒有對所選工作區的寫入的權限"
+  },
+  "NotifyUI": {
+    "UpgradePlan": "更新計劃",
+    "Renew": "更新",
+    "GoToPersonalSite": "轉到您的免費個人網站",
+    "ErrorCannotFindPersonalSite": "找不到個人網站，抱歉！",
+    "ReportProblem": "回報一個問題",
+    "AskForHelp": "請求幫助",
+    "Notifications": "通知",
+    "GiveFeedback": "給予回饋",
+    "NoNotifications": "無通知"
+  },
+  "OnBoardingPopups": {
+    "Finish": "完成",
+    "Next": "下一個"
+  },
+  "WidgetTitle": {
+    "OverrideTitle": "覆蓋小部件標題",
+    "DataTableName": "數據表格名稱",
+    "NewTableName": "提供表格名稱",
+    "WidgetTitle": "小部件標題",
+    "Save": "儲存",
+    "Cancel": "取消"
+  },
+  "WelcomeQuestions": {
+    "WelcomeToGrist": "歡迎來到Grist！",
+    "ProductDevelopment": "產品開發",
+    "FinanceAccounting": "財務與會計",
+    "MediaProduction": "媒體製作",
+    "ITTechnology": "資訊科技",
+    "Marketing": "營銷",
+    "Research": "研究",
+    "Sales": "銷售",
+    "Education": "教育",
+    "HRManagement": "人力資源與管理",
+    "Other": "其它",
+    "WhatBringsYouToGrist": "是什麼讓你來到Grist？ 請幫助我們更好地為您服務。",
+    "TypeHere": "在此輸入"
+  },
+  "OpenVideoTour": {
+    "YouTubeVideoPlayer": "YouTube 影片播放器",
+    "GristVideoTour": "Grist 介紹影片",
+    "VideoTour": "影片介紹"
+  },
+  "Pages": {
+    "TableWillNoLongerBeVisible_one": "下表將不再可視",
+    "TableWillNoLongerBeVisible_other": "下表將不再可視",
+    "DeleteDataAndPage": "刪除數據和本頁。",
+    "Delete": "刪除"
+  },
+  "PageWidgetPicker": {
+    "BuildingWidget": "構建 {{- label}} 小部件",
+    "SelectWidget": "選擇小部件",
+    "SelectData": "選擇數據",
+    "GroupBy": "群組來自",
+    "AddToPage": "添加到頁面"
+  },
+  "RightPanel": {
+    "Column_one": "Column",
+    "Column_other": "Columns",
+    "Field_one": "Field",
+    "Field_other": "Fields",
+    "Series_one": "Series",
+    "Series_other": "Series",
+    "ColumnType": "COLUMN TYPE",
+    "Transform": "TRANSFORM",
+    "Widget": "小部件",
+    "SortAndFilter": "排序和過濾",
+    "Data": "數據",
+    "DataTableName": "數據表格名稱",
+    "WidgetTitle": "小部件標題",
+    "ChangeWidget": "更改小部件",
+    "Theme": "主題",
+    "RowStyleUpper": "行式",
+    "RowStyle": "行式",
+    "ChartType": "圖表類型",
+    "Custom": "CUSTOM",
+    "Sort": "種類",
+    "Filter": "篩選",
+    "DataTable": "數據表",
+    "SourceData": "數據來源",
+    "GroupedBy": "分組依據",
+    "EditDataSelection": "編輯數據選擇",
+    "Detach": "分離",
+    "SelectBy": "選擇依據",
+    "SelectWidget": "選擇小部件",
+    "SelectorFor": "選擇器",
+    "Save": "儲存",
+    "NoEditAccess": "您沒有對此文檔的編輯的權限"
+  },
+  "RowContextMenu": {
+    "InsertRow": "插入行",
+    "InsertRowAbove": "在上方插入行",
+    "InsertRowBelow": "在下方插入行",
+    "DuplicateRows_one": "Duplicate row",
+    "DuplicateRows_other": "Duplicate rows",
+    "Delete": "刪除",
+    "CopyAnchorLink": "複製錨連接"
+  },
+  "sendToDrive": {
+    "SendingToGoogleDrive": "發送文件到 Google Drive"
+  },
+  "ShareMenu": {
+    "BackToCurrent": "回到當前",
+    "SaveDocument": "保存文件",
+    "SaveCopy": "保存副本",
+    "Unsaved": "未保存",
+    "DuplicateDocument": "重複文件",
+    "ManageUsers": "管理用戶",
+    "AccessDetails": "訪問詳細信息",
+    "CurrentVersion": "當前版本",
+    "Original": "原始的",
+    "ReturnToTermToUse": "返回到{{termToUse}}",
+    "ReplaceTermToUse": "替換 {{termToUse}}...",
+    "CompareTermToUse": "與{{termToUse}} 比較",
+    "WorkOnCopy": "在副本上工作",
+    "EditWithoutAffecting": "在不影響原始文件的情況下編輯",
+    "ShowInFolder": "在文件夾中顯示",
+    "Download": "下載",
+    "ExportCSV": "匯出 CSV",
+    "ExportXLSX": "匯出 XLSX",
+    "SendToGoogleDrive": "發送到 Google Drive"
+  },
+  "SiteSwitcher": {
+    "SwitchSites": "Switch Sites",
+    "CreateNewTeamSite": "Create new team site"
+  },
+  "SortConfig": {
+    "AddColumn": "Add Column",
+    "UpdateData": "Update Data",
+    "UseChoicePosition": "Use choice position",
+    "NaturalSort": "Natural sort",
+    "EmptyValuesLast": "Empty values last"
+  },
+  "SortFilterConfig": {
+    "Save": "Save",
+    "Revert": "Revert",
+    "Sort": "SORT",
+    "Filter": "FILTER",
+    "UpdateSortFilterSettings": "Update Sort & Filter settings"
+  },
+  "ThemeConfig": {
+    "Appearance": "Appearance ",
+    "SyncWithOS": "Switch appearance automatically to match system"
+  },
+  "Tools": {
+    "Tools": "TOOLS",
+    "AccessRules": "Access Rules",
+    "Data": "Raw Data",
+    "DocumentHistory": "Document History",
+    "ValidateData": "Validate Data",
+    "CodeView": "Code View",
+    "HowToTutorial": "How-to Tutorial",
+    "DocumentTour": "Tour of this Document",
+    "DeleteDocumentTour": "Delete document tour?",
+    "Delete": "Delete",
+    "ViewingAsYourself": "Return to viewing as yourself",
+    "RawData": "Raw Data"
+  },
+  "TopBar": {
+    "ManageTeam": "Manage Team"
+  },
+  "TriggerFormulas": {
+    "AnyField": "Any field",
+    "NewRecords": "Apply to new records",
+    "ChangesTo": "Apply on changes to:",
+    "RecordChanges": "Apply on record changes",
+    "CurrentField": "Current field ",
+    "DataCleaning": "(data cleaning)",
+    "ExceptFormulas": "(except formulas)",
+    "OK": "OK",
+    "Cancel": "Cancel",
+    "Close": "Close"
+  },
+  "VisibleFieldsConfig": {
+    "NoReorderHiddenField": "隱藏字段無法重新排序",
+    "NoDropInHiddenField": "無法將項目放入隱藏字段",
+    "SelectAll": "全選",
+    "Clear": "清除"
+  },
+  "ViewLayoutMenu": {
+    "DeleteRecord": "刪除記錄",
+    "CopyAnchorLink": "複製錨連接",
+    "ShowRawData": "顯示原始數據",
+    "PrintWidget": "打印小部件",
+    "DownloadCSV": "下載為 CSV",
+    "DownloadXLSX": "下載為 XLSX",
+    "EditCardLayout": "編輯卡片佈局",
+    "WidgetOptions": "小部件選項",
+    "AdvancedSortFilter": "高級排序和過濾",
+    "DataSelection": "數據選擇",
+    "OpenConfiguration": "打開設置",
+    "DeleteWidget": "刪除小部件"
+  },
+  "ViewSectionMenu": {
+    "UpdateSortFilterSettings": "更新排序和篩選設置",
+    "Save": "儲存",
+    "Revert": "恢復",
+    "SortedBy": "排序由",
+    "AddFilter": "添加過濾器",
+    "ToggleFilterBar": "切換過濾欄",
+    "FilteredBy": "篩選依據",
+    "Customized": "(已定制)",
+    "Modified": "(已修改的)",
+    "Empty": "(空白的)",
+    "CustomOptions": "自定義選項",
+    "Sort": "種類",
+    "Filter": "篩選"
+  },
+  "aclui": {
+    "AccessRules": {
+      "Checking": "檢查中...",
+      "Saved": "已儲存",
+      "Invalid": "無效的",
+      "Save": "儲存",
+      "Reset": "重置",
+      "AddTableRules": "添加表格規則",
+      "AddUserAttributes": "添加用戶屬性",
+      "Users": "用戶",
+      "UserAttributes": "用戶屬性",
+      "AttributeToLookUp": "要查找的屬性",
+      "LookupTable": "Lookup Table",
+      "LookupColumn": "Lookup Column",
+      "DefaultRules": "默認規則",
+      "Condition": "Condition",
+      "Permissions": "權限",
+      "RulesForTable": "表格規則 ",
+      "AddColumnRule": "Add Column Rule",
+      "AddDefaultRule": "添加默認規則",
+      "DeleteTableRules": "Delete Table Rules",
+      "SpecialRules": "特殊規則",
+      "AccessRulesDescription": "允許所有人查看訪問規則。",
+      "FullCopiesDescription": "Allow everyone to copy the entire document, or view it in full in fiddle mode.\nUseful for examples and templates, but not for sensitive data.",
+      "AccessRulesName": "查看訪問規則的權限",
+      "FullCopies": "Permission to access the document in full when needed",
+      "AttributeNamePlaceholder": "Attribute name",
+      "Everyone": "每個人",
+      "EveryoneElse": "Everyone Else",
+      "EnterCondition": "Enter Condition"
+    },
+    "PermissionsWidget": {
+      "AllowAll": "允許全部",
+      "DenyAll": "全部拒絕",
+      "ReadOnly": "唯獨"
+    }
+  },
+  "lib": {
+    "ACUserManager": {
+      "InviteNewMember": "Invite new member",
+      "EmailInputPlaceholder": "Enter email address",
+      "InviteEmail": "We'll email an invite to {{email}}"
+    }
+  },
+  "models": {
+    "AppModel": {
+      "TeamSiteSuspended": "This team site is suspended. Documents can be read, but not modified."
+    },
+    "DocPageModel": {
+      "ErrorAccessingDocument": "訪問文檔時出錯",
+      "Reload": "重新載入",
+      "ReloadingOrRecoveryMode": "You can try reloading the document, or using recovery mode. Recovery mode opens the document to be fully accessible to owners, and inaccessible to others. It also disables formulas. [{{error}}]",
+      "AccessError_denied": "Sorry, access to this document has been denied. [{{error}}]",
+      "AccessError_recover": "Document owners can attempt to recover the document. [{{error}}]",
+      "EnterRecoveryMode": "Enter recovery mode",
+      "AddPage": "添加頁面",
+      "AddWidgetToPage": "將小部件添加到頁面",
+      "AddEmptyTable": "添加空白表格",
+      "NoEditAccess": "您沒有對此文檔的編輯的權限"
+    },
+    "UserManagerModel": {
+      "Owner": "擁有者",
+      "Editor": "編輯",
+      "Viewer": "檢視",
+      "NoDefaultAccess": "沒有默認訪問權限",
+      "InFull": "In Full",
+      "ViewAndEdit": "View & Edit",
+      "ViewOnly": "View Only",
+      "None": "無"
+    }
+  },
+  "ui2018": {
+    "breadcrumbs": {
+      "FiddleExplanation": "You may make edits, but they will create a new copy and will\nnot affect the original document.",
+      "Snapshot": "快照",
+      "Unsaved": "未保存",
+      "RecoveryMode": "recovery mode",
+      "Override": "覆蓋",
+      "Fiddle": "fiddle"
+    },
+    "ColorSelect": {
+      "DefaultCellStyle": "Default cell style",
+      "Apply": "Apply",
+      "Cancel": "Cancel"
+    },
+    "menus": {
+      "SelectFields": "Select fields",
+      "WorkspacesAvailableOnTeamPlans": "* Workspaces are available on team plans. ",
+      "UpgradeNow": "Upgrade now"
+    },
+    "modals": {
+      "Save": "Save",
+      "Cancel": "Cancel",
+      "Ok": "Ok"
+    },
+    "pages": {
+      "Rename": "Rename",
+      "Remove": "Remove",
+      "DuplicatePage": "Duplicate Page",
+      "NoEditAccess": "You do not have edit access to this document"
+    },
+    "search": {
+      "SearchInDocument": "Search in document",
+      "NoResults": "No results",
+      "FindNext": "Find Next ",
+      "FindPrevious": "Find Previous "
+    }
+  },
+  "components": {
+    "ActionLog": {
+      "ActionLogFailed": "Action Log failed to load",
+      "TableRemovedInAction": "Table {{tableId}} was subsequently removed in action #{{actionNum}}",
+      "RowRemovedInAction": "This row was subsequently removed in action {{action.actionNum}}",
+      "ColumnRemovedInAction": "Column {{colId}} was subsequently removed in action #{{action.actionNum}}"
+    },
+    "ChartView": {
+      "EachYFollowedByOne": "Each Y series is followed by a series for the length of error bars.",
+      "EachYFollowedByTwo": "Each Y series is followed by two series, for top and bottom error bars.",
+      "CreateSeparateSeries": "Create separate series for each value of the selected column.",
+      "PickColumn": "Pick a column",
+      "SelectedNewGroupDataColumns": "selected new group data columns",
+      "ToggleChartAggregation": "Toggle chart aggregation"
+    },
+    "CodeEditorPanel": {
+      "AccessDenied": "Access denied",
+      "CodeViewOnlyFullAccess": "Code View is available only when you have full document access."
+    },
+    "DataTables": {
+      "RawDataTables": "Raw Data Tables",
+      "ClickToCopy": "Click to copy",
+      "TableIDCopied": "Table ID copied to clipboard",
+      "DuplicateTable": "Duplicate Table",
+      "NoEditAccess": "You do not have edit access to this document",
+      "DeleteData": "Delete {{formattedTableName}} data, and remove it from all pages?"
+    },
+    "DocumentUsage": {
+      "UsageStatisticsOnlyFullAccess": "Usage statistics are only available to users with full access to the document data.",
+      "TotalSize": "The total size of all data in this document, excluding attachments.",
+      "Updates": "Updates every 5 minutes.",
+      "AttachmentsSize": "Attachments Size",
+      "DataSize": "Data Size",
+      "Usage": "Usage",
+      "LimitContactSiteOwner": "Contact the site owner to upgrade the plan to raise limits.",
+      "UpgradeLinkText": "start your 30-day free trial of the Pro plan.",
+      "ForHigherLimits": "For higher limits, ",
+      "StatusMessageApproachingLimit": "This document is {{- link}} free plan limits.",
+      "StatusMessageGracePeriod": "Document limits {{- link}}.",
+      "StatusMessageGracePeriodElse": "Document limits {{- link}}. In {{gracePeriodDays}} days, this document will be read-only.",
+      "StatusMessageDeleteOnly": "This document {{- link}} free plan limits and is now read-only, but you can delete rows.",
+      "Rows": "Rows"
+    },
+    "ViewConfigTab": {
+      "UnmarkOnDemandTitle": "Unmark table On-Demand?",
+      "UnmarkOnDemandButton": "Unmark On-Demand",
+      "UnmarkOnDemandText": "If you unmark table {{- table}}' as On-Demand, its data will be loaded into the calculation engine and will be available for use in formulas. For a big table, this may greatly increase load times.{{- br}}{{-br}}Changing this setting will reload the document for all users.",
+      "MakeOnDemandTitle": "Make table On-Demand?",
+      "MakeOnDemandButton": "Make On-Demand",
+      "MakeOnDemandText": "If you make table {{table}} On-Demand, its data will no longer be loaded into the calculation engine and will not be available for use in formulas. It will remain available for viewing and editing.",
+      "AdvancedSettings": "Advanced settings",
+      "BigTablesMayBeMarked": "Big tables may be marked as \"on-demand\" to avoid loading them into the data engine.",
+      "Form": "Form",
+      "Compact": "Compact",
+      "Blocks": "Blocks",
+      "EditCardLayout": "Edit Card Layout",
+      "PluginColon": "Plugin: ",
+      "SectionColon": "Section: "
+    },
+    "Drafts": {
+      "UndoDiscard": "Undo discard",
+      "RestoreLastEdit": "Restore last edit"
+    },
+    "duplicatePage": {
+      "DoesNotCopyData": "Note that this does not copy data, but creates another view of the same data.",
+      "DuplicatePageName": "Duplicate page {{pageName}}"
+    },
+    "GristDoc": {
+      "ImportFromFile": "Import from file",
+      "AddedNewLinkedSection": "Added new linked section to view {{viewName}}",
+      "SavedLinkedSectionIn": "Saved linked section {{title}} in view {{name}}"
+    },
+    "Importer": {
+      "UpdateExistingRecords": "Update existing records",
+      "MergeRowsThatMatch": "Merge rows that match these fields:",
+      "SelectFieldsToMatch": "Select fields to match on"
+    },
+    "PluginScreen": {
+      "ImportFailed": "Import failed: "
+    },
+    "RecordLayout": {
+      "UpdatingRecordLayout": "Updating record layout."
+    },
+    "RecordLayoutEditor": {
+      "AddField": "Add Field",
+      "CreateNewField": "Create New Field",
+      "ShowField": "Show field {{- label}}",
+      "SaveLayout": "Save Layout",
+      "Cancel": "Cancel"
+    },
+    "RefSelect": {
+      "AddColumn": "Add Column",
+      "NoColumnsAdd": "No columns to add"
+    },
+    "SelectionSummary": {
+      "CopiedClipboard": "Copied to clipboard"
+    },
+    "TypeTransformation": {
+      "Cancel": "Cancel",
+      "Preview": "Preview",
+      "UpdateFormula": "Update formula (Shift+Enter)",
+      "Revise": "Revise",
+      "Apply": "Apply"
+    },
+    "ValidationPanel": {
+      "RuleLength": "Rule {{length}}",
+      "UpdateFormula": "Update formula (Shift+Enter)"
+    }
+  }
+}
